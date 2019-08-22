@@ -3,7 +3,7 @@ const express = require('express');
 const app = express()
 
 app.get("/", (req, res) => {
-	res.send('Hello from node server 2nd commit!!!');
+	res.send('Hello from node server 3rd commit!!!');
 	console.log('Hello from node server !!!');
 });
 
